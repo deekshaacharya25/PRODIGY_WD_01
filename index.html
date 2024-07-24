@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+<header>
+    <nav id="navbar" class="navbar">
+        <div class="logo">Pear.by</div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<section id="home">
+    <div class="container">
+        <h2><span>Visionary</span> Design Lab</h2>
+        <div class="small-container">
+        <p>To inspire and empower businesses by delivering exceptional design solutions that resonate with their audience and drive success.</p>
+        <button>Get in Touch</button>
+    </div>
+    </div>
+</section>
+
+<section id="about">  
+    <div class="heading">
+    <p class="heading">About Us</p>
+</div>
+
+<div class="sub-container">
+        <div class="left">
+            
+            <p>Visionary Design Lab is a creative powerhouse dedicated to pushing the boundaries of design and innovation. Founded by a team of passionate designers and strategists, we believe in the transformative power of great design. Our mission is to provide businesses with visually compelling and strategically sound design solutions that elevate their brand and engage their audience.</p>
+        <div class="point">
+                <ul>
+                    <li marker="star">Creativity: We foster a culture of creativity, encouraging our team to think outside the box.</li>
+                    <li>Collaboration: We believe that the best results come from working together.</li>
+                    <li>Excellence: We are committed to delivering high-quality work that exceeds expectations and drives success.</li>
+                </ul>
+            </div>
+     
+            <div class="btn">
+                <input class="btn1" type="button" value="Read More">
+            </div>
+        </div>
+            <div class="right">
+                <img src="images/abouti.jpg" alt="">
+            </div>
+        </div>
+</div>
+</section>  
+
+
+<section id="services">
+    <div class="heading">
+        <p class="heading">Our Services</p><br>
+    </div>
+<div class="sub-container">
+    <div class="left">
+        <img src="images/service1.jpg" alt="">
+        <p>Branding</p>
+    </div>
+
+    <div class="mid">
+        <img src="images/service2.jpg" alt="">
+        <p>Digital Marketing</p>
+    </div>
+    <div class="right">
+        <img src="images/service3.jpg" alt="">
+        <p>Web Design / Graphic Design / UX/UI Design</p>
+    </div>
+</div>
+</section>
+
+
+<section id="contact">
+    <div class="heading">
+    <p class="heading">Contact Us</p><br>
+    </div>
+    <div class="layout">	 
+        <div class="text-center">
+            <p>Find Us On</p><br>
+            <a href="https://linkedin.com/in/visionarydesignlab" target="_blank" class="link"><img src="images/linkedin.png" alt="" />linkedin.com/in/visionarydesignlab</a>
+            <a href="https://www.instagram.com/visionarydesignlab/" target="_blank" class="link"><img src="images/instagram.png" alt="" />instagram.com/visionarydesignlab/</a>
+            <a href="mailto:visionarydesignlab@gmail.com" target="_blank" class="link"><img src="images/email.png" alt="" />visionarydesignlab@gmail.com</a>
+            <a href="#" target="_blank" class="link"><img src="images/whatsapp.png" alt="" />+91 7928090923</a>
+            <a href="https://www.twitter.com/visionarydesignlab/" target="_blank" class="link"><img src="images/twitter.png" alt="" />twitter.com/visionarydesignlab/</a>
+            <a href="https://www.facebook.com/visionarydesignlab/" target="_blank" class="link"><img src="images/facebook.png" alt="" />facebook.com/visionarydesignlab</a>
+        </div>
+        <div class="grid-8 form">
+            <form action="http://localhost:3000/submit-form" method="post" id="contact_form" name="contactForm">
+                <div class="form-inline clearfix">
+                    <div class="form-group grid-6">
+                        <input type="text" placeholder="name" id="exampleInputName" name="name" class="form-control">
+                    </div>
+                    <div class="form-group grid-6">
+                        <input type="email" placeholder="email address" id="exampleInputEmail" name="email" class="form-control">
+                    </div>
+                    <div class="form-group grid-6">
+                        <input type="text" placeholder="subject" id="exampleInputSubject" name="subject" class="form-control">
+                    </div>
+                    <div class="form-group grid-6">
+                        <input type="text" placeholder="company" id="exampleInputCompany" name="company" class="form-control">
+                    </div>
+                    <div class="form-group grid-12">
+                        <textarea placeholder="message" id="exampleInputMessage" rows="3" name="message" class="form-control"></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div style="display:none;" class="success" id="mail_success">Your message has been sent successfully.
+                    </div><!-- success message -->
+                    <div style="display:none;" class="error" id="mail_fail">Sorry, error occurred this time sending your message.
+                    </div><!-- error message -->
+                </div>
+                <div id="submit" class="form-group grid-12">
+                    <input type="submit" value="send" class="btn btn-lg custom-btn" id="send_message">
+                </div>
+            </form>
+        </div>
+          
+	</div>	
+</section>	
+
+  <footer id="footer">
+    <div class="col col1">
+      <h3>Visionary</h3>
+      <p>Made with <span style="color: white;">❤</span> Pear.by</p>
+      <div class="social">
+        <a href="#" target="_blank" class="link"><img src="https://assets.codepen.io/9051928/codepen_1.png" alt="" /></a>
+        <a href="#" target="_blank" class="link"><img src="https://assets.codepen.io/9051928/x.png" alt="" /></a>
+        <a href="#" target="_blank" class="link"><img src="https://assets.codepen.io/9051928/youtube_1.png" alt="" /></a>
+      </div>
+      <p style="color: #818181; font-size: smaller">2024 © All Rights Reserved</p>
+    </div>
+    <div class="col col2">
+      <p>About</p>
+      <p>Our mission</p>
+      <p>Privacy Policy</p>
+      <p>Terms of service</p>
+    </div>
+    <div class="col col3">
+      <p>Services</p>
+      <p>Products</p>
+      <p>Join our team</p>
+      <p>Partner with us</p>
+    </div>
+    <div class="backdrop"></div>
+  </footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
